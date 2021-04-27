@@ -18,6 +18,14 @@ global temp_digit_const
 temp_digit_const=0
 global inut_port_list
 global temp_var_const
+global switch_const_if
+switch_const_if=[]
+global switch_ref_if
+switch_ref_if=[]
+global switch_const_else
+switch_const_else=[]
+global switch_ref_else
+switch_ref_else=[]
 temp_var_const=[]
 global float_const_ac
 float_const_ac=[]
@@ -677,14 +685,6 @@ def creating_constant_blocks(data):
 
             
 if __name__=="__main__":
-    global switch_const_if
-    switch_const_if=[]
-    global switch_ref_if
-    switch_ref_if=[]
-    global switch_const_else
-    switch_const_else=[]
-    global switch_ref_else
-    switch_ref_else=[]
     path='Specify your C code file path here'
     file="Code_Analysis.c"
     inut_port_list=[]
