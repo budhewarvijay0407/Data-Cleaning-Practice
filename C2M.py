@@ -686,7 +686,7 @@ def creating_constant_blocks(data):
             
 if __name__=="__main__":
     path='Specify your C code file path here'
-    file="Code_Analysis.c"
+    file="Specify your C code file name.c"
     inut_port_list=[]
     internals_signals=[]  ###Signals that you want to specifically monitor
     with open(path+file,'r+') as f:
