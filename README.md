@@ -1,0 +1,2 @@
+# Data-Cleaning-Practice
+This code is all about the ways in which a MATLAB generated C code (S-function) can be converted back to the MATLAB simulink model , Coming from a Data Science backgorund this problem is approached using all the libraries like pandas , numpy and so on...This is a good example of data cleaning and has a good potential to be used further with NLTK for natural language processing.
